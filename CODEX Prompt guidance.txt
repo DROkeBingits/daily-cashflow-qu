@@ -1,0 +1,136 @@
+CODEX Prompt guidance
+================================================================
+
+Baca AGENTS.md terlebih dahulu.
+
+Kemudian baca seluruh dokumen yang direferensikan oleh AGENTS.md.
+
+Jangan menulis kode dulu.
+
+Tampilkan:
+
+1. Ringkasan pemahaman project
+2. Daftar fitur MVP
+3. Struktur folder yang akan dibuat
+4. Phase saat ini berdasarkan implementation-plan.md
+5. Rencana pekerjaan untuk phase tersebut
+
+Tunggu persetujuan sebelum membuat file.
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 2 sesuai implementation-plan.md.
+
+Tujuan:
+
+- Setup koneksi Supabase
+- Membuat file supabase.js
+- Menggunakan environment variables
+
+Jangan membuat fitur CRUD dulu.
+
+Tampilkan file yang akan dibuat atau diubah sebelum menulis kode.
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 3 sesuai implementation-plan.md.
+
+Buat:
+
+- Header
+- Summary cards
+- Area form transaksi
+- Area transaction list
+
+Gunakan ui-guidelines.md sebagai referensi utama.
+
+Gunakan data dummy sementara.
+
+Jangan implement CRUD dulu.
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 4.
+
+Implementasikan:
+
+- Form transaksi
+- Validasi input
+- Create transaction ke Supabase
+
+Gunakan database-schema.md sebagai referensi.
+
+Pastikan:
+
+- Amount > 0
+- Type wajib dipilih
+- Category wajib dipilih
+
+Jelaskan cara testing create transaction.
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 5.
+
+Implementasikan:
+
+- Fetch transactions
+- Render transaction list
+- Sorting terbaru di atas
+
+Tambahkan:
+
+- Loading state
+- Empty state
+- Error state
+
+Gunakan coding-rules.md
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 6.
+
+Implementasikan:
+
+- Tombol Edit
+- Load data ke form
+- Update transaction
+
+Jelaskan flow edit yang digunakan.
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 7.
+
+Implementasikan:
+
+- Tombol Hapus
+- Confirmation dialog
+- Delete transaction
+
+Pastikan tidak menghapus tanpa konfirmasi user.
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 8.
+
+Implementasikan:
+
+- Total Income
+- Total Expense
+- Current Balance
+
+Pisahkan logic ke utils/calculations.js.
+
+Jangan campur dengan rendering UI.
+
+-----------------------------------------------------------------
+
+Lanjutkan ke Phase 9.
+
+Implementasikan:
+
+- Filter tanggal
+- Filter bulan
+
+Pastikan filter tidak mempengaruhi data asli.
